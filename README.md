@@ -12,10 +12,10 @@ Analyze her mood through her girlfriend's words .
 
 @[TOC]
 =======
-Analyze her mood through her girlfriend's words . 
- 
- 
-## 第一章 分词 
+Analyze her mood through her girlfriend's words .
+
+
+## 第一章 分词
 >>>>>>> 47d0a1a26cbce54de69be3c21daed233387af4a2
 
 ## 第一章 分词
@@ -308,7 +308,3 @@ if __name__=="__main__":
 
 ### 6、代码地址
     Github : [https://github.com/CasterWx/python-girlfriend-mood](https://github.com/CasterWx/python-girlfriend-mood)
-<<<<<<< HEAD
-=======
-
->>>>>>> 47d0a1a26cbce54de69be3c21daed233387af4a2
