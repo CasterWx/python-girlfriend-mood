@@ -7,17 +7,17 @@
 
 :kissing_closed_eyes::kissing_closed_eyes:  通过女朋友的一句话分析她的心情 。
 
-Analyze her mood through her girlfriend's words . 
+Analyze her mood through her girlfriend's words .
 
-@[TOC] 
- 
-## 第一章 分词 
+@[TOC]
 
-### 1、JieBa库 
+## 第一章 分词
+
+### 1、JieBa库
 >“结巴”中文分词：做最好的 Python 中文分词组件
 
 >"Jieba" (Chinese for "to stutter") Chinese text segmentation: built to be the best Python Chinese word segmentation module.
- 
+
 ### 2、特点
  * 支持三种分词模式：
      * 精确模式，试图将句子最精确地切开，适合文本分析；
@@ -32,17 +32,17 @@ Analyze her mood through her girlfriend's words .
  * 基于前缀词典实现高效的词图扫描，生成句子中汉字所有可能成词情况所构成的有向无环图 (DAG)
  * 采用了动态规划查找最大概率路径, 找出基于词频的最大切分组合
  * 对于未登录词，采用了基于汉字成词能力的 HMM 模型，使用了 Viterbi 算法
- 
+
 ### 4、主要功能
 
-####   1) 分词 
+####   1) 分词
  * `jieba.cut` 方法接受三个输入参数: 需要分词的字符串；cut_all 参数用来控制是否采用全模式；HMM 参数用来控制是否使用 HMM 模型
  * `jieba.cut_for_search` 方法接受两个参数：需要分词的字符串；是否使用 HMM 模型。该方法适合用于搜索引擎构建倒排索引的分词，粒度比较细
  * 待分词的字符串可以是 unicode 或 UTF-8 字符串、GBK 字符串。注意：不建议直接输入 GBK 字符串，可能无法预料地错误解码成 UTF-8
  * `jieba.cut` 以及 `jieba.cut_for_search` 返回的结构都是一个可迭代的 generator，可以使用 for 循环来获得分词后得到的每一个词语(unicode)，或者用
  * `jieba.lcut` 以及 `jieba.lcut_for_search` 直接返回 list
  * `jieba.Tokenizer(dictionary=DEFAULT_DICT)` 新建自定义分词器，可用于同时使用不同词典。`jieba.dt` 为默认分词器，所有全局分词相关函数都是该分词器的映射。
-```python 
+```python
 seg_list = jieba.cut("我要有女朋友了", cut_all=True)
 print("全模式: " + "/ ".join(seg_list))  # 全模式
 
@@ -87,7 +87,7 @@ output :
 
 * 注意：自动计算的词频在使用 HMM 新词发现功能时可能无效。
 
-####   3) 关键词提取 
+####   3) 关键词提取
 > 基于 TF-IDF 算法的关键词抽取
 
 `import jieba.analyse`
@@ -283,7 +283,7 @@ word 有限公司		 start: 6 		 end:10
 
 run.py中编写代码，并且调用jieba库实现分词。
 
-run.py 
+run.py
 ```python
 #encoding=utf-8
 from __future__ import unicode_literals
@@ -300,4 +300,4 @@ if __name__=="__main__":
 > 我, 马上, 就要, 有, 女朋友, 了
 
 ### 6、代码地址
-    Github : 
+    Github : [https://github.com/CasterWx/python-girlfriend-mood](https://github.com/CasterWx/python-girlfriend-mood)
