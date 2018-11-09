@@ -3,6 +3,9 @@
 > Blog : [Antzuhl](http://www.cnblogs.com/LexMoon/)
 
 > Github : [CasterWx](https://github.com/CasterWx)
+
+> 扩展小猫粮 : [小猫粮](https://github.com/CasterWx/python-girlfriend-mood/blob/master/Other.md)
+
 ![todo](https://github.com/CasterWx/python-girlfriend-mood/blob/master/CS.jpg?raw=true)
 
 :kissing_closed_eyes::kissing_closed_eyes:  通过女朋友的一句话分析她的心情 。
