@@ -1,4 +1,4 @@
-## 直男眼里 的 没有对象也要谈恋爱之女朋友的情绪监控 之 分词
+## 通过对话分析女朋友的情绪值波动
 
 > Blog : [Antzuhl](http://www.cnblogs.com/LexMoon/)
 
