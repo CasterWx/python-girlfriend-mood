@@ -4,8 +4,6 @@
 
 > Github : [CasterWx](https://github.com/CasterWx)
 
-> BiliBili : [特仑不是很苏](https://space.bilibili.com/33717177)  之后会更新教程
-
 > 扩展小猫粮 : [小猫粮](https://github.com/CasterWx/python-girlfriend-mood/blob/master/Other.md)
 
 ![todo](https://github.com/CasterWx/python-girlfriend-mood/blob/master/CS.jpg?raw=true)
