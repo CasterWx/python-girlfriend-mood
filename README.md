@@ -7,7 +7,7 @@
 > 扩展小猫粮 : [小猫粮](https://github.com/CasterWx/python-girlfriend-mood/blob/master/Other.md)
 
 
-###### 欢迎关注我的公众号哦~
+###### 欢迎关注公众号，开启和我的交流
 
 ![weix](https://www.cnblogs.com/images/cnblogs_com/LexMoon/1391533/o_qrcode_for_gh_f3457f4f73a1_258.jpg)
 
