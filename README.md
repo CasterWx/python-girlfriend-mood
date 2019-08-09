@@ -6,6 +6,11 @@
 
 > 扩展小猫粮 : [小猫粮](https://github.com/CasterWx/python-girlfriend-mood/blob/master/Other.md)
 
+
+###### 欢迎关注我的公众号哦~
+
+![weix](https://www.cnblogs.com/images/cnblogs_com/LexMoon/1391533/o_qrcode_for_gh_f3457f4f73a1_258.jpg)
+
 ![todo](https://github.com/CasterWx/python-girlfriend-mood/blob/master/CS.jpg?raw=true)
 
 :kissing_closed_eyes::kissing_closed_eyes:  通过女朋友的一句话分析她的心情 。
